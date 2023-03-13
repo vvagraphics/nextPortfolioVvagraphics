@@ -1,4 +1,5 @@
 import './globals.css'
+import Navigation from './Navigation'
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,7 +13,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        
+        <Navigation/>
+        
+        {children}
+        {/* ///make a component/// */}
+    <div className="stickyToTop">
+    <a href="#nav-home">BACK TO TOP</a>
+    </div>
+    
+    </body>
     </html>
   )
 }
