@@ -2,12 +2,12 @@
   "name": "portfolio03122023",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "homepage": "http://vvagraphics.com",
+"scripts": {
+  "dev": "node server.js",
+  "build": "next build",
+  "start": "NODE_ENV=production node server.js"
+},
   "dependencies": {
     "@types/node": "18.15.0",
     "@types/react": "18.0.28",
